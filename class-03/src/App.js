@@ -1,8 +1,8 @@
-import FirstClass from "./class01/components-1";
+import Parent from "./class02/Buttons/parent";
 function App() {
   return (
     <div className="App">
-      <FirstClass/>
+      <Parent/>
     </div>
   );
 }
