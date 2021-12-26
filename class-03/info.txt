@@ -10,3 +10,16 @@ function App() {
 export default App;
 first class App.js code
 -----------------------------------------------------------------------
+
+import Parent from "./class02/Buttons/parent";
+function App() {
+  return (
+    <div className="App">
+      <Parent/>
+    </div>
+  );
+}
+Parent>first>secondchild>thirdChild
+export default App;
+2nd class code of App.js (props)
+---------------------------------------------------------------
