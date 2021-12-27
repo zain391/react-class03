@@ -1,10 +1,14 @@
-function Welcome(props){
-    // let heading=<h4>react is cool</h4>;
+import { useState } from "react";
+function Welcome(){
+    const [todoInput, setTodoInput]=useState("");
+    
     return(
         <div>
-            <h1>hello {props.name} </h1>
-            {/* {heading} */}
+            <input type="text" placeholder="enter todo" id="todoInput"/>
+            <button  id="addbtn">ADD</button>
+            <h1></h1>
         </div>
     )
 }
+
 export default Welcome;

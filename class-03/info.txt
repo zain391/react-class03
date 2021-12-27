@@ -23,3 +23,18 @@ Parent>first>secondchild>thirdChild
 export default App;
 2nd class code of App.js (props)
 ---------------------------------------------------------------
+import Welcome from "./class-03/components-3/first-props";
+function App() {
+  return (
+    <div className="App">
+      <Welcome />
+    </div>
+  );
+}
+
+export default App;
+
+3rd class code of App.js part1
+
+...........................................................
+
