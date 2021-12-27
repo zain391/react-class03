@@ -70,4 +70,7 @@ function App() {
 
 export default App;
 2nd class code of App.js part2 for Counter App
+
+-/-/-/-/-/--/--/-/---/
+Added the code of app js for counter app in the info txt file and learned about  the usestate in react 
 ----------------------------------------------------------------------------------
