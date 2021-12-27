@@ -38,3 +38,36 @@ export default App;
 
 ...........................................................
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-----------------------------------------------------------------------------------
+import Counter from "./Counter";
+function App() {
+  return (
+    <div className="App">
+      <Counter/>
+    </div>
+  );
+}
+
+export default App;
+2nd class code of App.js part2 for Counter App
+----------------------------------------------------------------------------------
